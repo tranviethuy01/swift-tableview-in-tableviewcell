@@ -15,14 +15,8 @@ class SimpleTableViewFixedCellHeightWireFrame: SimpleTableViewFixedCellHeightWir
         if let vc = SimpleTableViewFixedCellHeightViewController.initWithStoryBoard() {
             let presenter = SimpleTableViewFixedCellHeightPresenter()
             let wireFrame = SimpleTableViewFixedCellHeightWireFrame()
-            let interactor = SimpleTableViewFixedCellHeightInteractor()
-            let remoteDataManager = SimpleTableViewFixedCellHeightRemoteDataManager()
             presenter.wireFrame = wireFrame
-            presenter.interactor = interactor
             presenter.view = vc
-            interactor.presenter = presenter
-            interactor.remoteDataManager = remoteDataManager
-            remoteDataManager.remoteRequestHandler = interactor
             vc.presenter = presenter
             return vc
         }

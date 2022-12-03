@@ -8,7 +8,6 @@
 import Foundation
 protocol SimpleTableViewFixedCellHeightPresenterProtocol: class {
     var view: SimpleTableViewFixedCellHeightViewProtocol? {get set}
-    var interactor: SimpleTableViewFixedCellHeightInteractorInputProtocol! {get set}
     var wireFrame: SimpleTableViewFixedCellHeightWireFrameProtocol! {get set}
     func viewDidLoad()
 }
@@ -16,14 +15,9 @@ protocol SimpleTableViewFixedCellHeightPresenterProtocol: class {
 class SimpleTableViewFixedCellHeightPresenter: SimpleTableViewFixedCellHeightPresenterProtocol {
     weak var view: SimpleTableViewFixedCellHeightViewProtocol?
     var wireFrame: SimpleTableViewFixedCellHeightWireFrameProtocol!
-    var interactor: SimpleTableViewFixedCellHeightInteractorInputProtocol!
     
     func viewDidLoad() {
         //
     }
-    
-}
-
-extension SimpleTableViewFixedCellHeightPresenter: SimpleTableViewFixedCellHeightInteractorOutputProtocol {
     
 }
