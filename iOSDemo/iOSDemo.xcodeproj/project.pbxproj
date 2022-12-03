@@ -10,13 +10,25 @@
 		310860CB638EE13ED8C02F9C /* Pods_iOSDemo_iOSDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8CCDB68F1E1A47DC9D0979 /* Pods_iOSDemo_iOSDemoUITests.framework */; };
 		3E4CF9CB3FD099B84803DB7B /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3BC927098745CD38377781 /* Pods_iOSDemo.framework */; };
 		D336D277293B33D0001A39E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D276293B33D0001A39E0 /* AppDelegate.swift */; };
-		D336D27B293B33D0001A39E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D27A293B33D0001A39E0 /* ViewController.swift */; };
+		D336D27B293B33D0001A39E0 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D27A293B33D0001A39E0 /* MainScreenViewController.swift */; };
 		D336D27E293B33D0001A39E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D27C293B33D0001A39E0 /* Main.storyboard */; };
 		D336D280293B33D2001A39E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D336D27F293B33D2001A39E0 /* Assets.xcassets */; };
 		D336D283293B33D2001A39E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D281293B33D2001A39E0 /* LaunchScreen.storyboard */; };
 		D336D28E293B33D2001A39E0 /* iOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D28D293B33D2001A39E0 /* iOSDemoTests.swift */; };
 		D336D298293B33D2001A39E0 /* iOSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D297293B33D2001A39E0 /* iOSDemoUITests.swift */; };
 		D336D29A293B33D2001A39E0 /* iOSDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D299293B33D2001A39E0 /* iOSDemoUITestsLaunchTests.swift */; };
+		D336D2AC293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2AB293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift */; };
+		D336D2AE293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D2AD293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard */; };
+		D336D2B2293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2B1293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift */; };
+		D336D2B4293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D336D2B3293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib */; };
+		D336D2B6293B3845001A39E0 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2B5293B3845001A39E0 /* UITableView.swift */; };
+		D336D2B9293B3D74001A39E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2B8293B3D74001A39E0 /* ViewController.swift */; };
+		D336D2BC293B3E95001A39E0 /* ViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2BB293B3E95001A39E0 /* ViewService.swift */; };
+		D336D2C6293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2C5293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift */; };
+		D336D2CA293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2C9293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift */; };
+		D336D2CC293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CB293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift */; };
+		D336D2CE293B4612001A39E0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CD293B4612001A39E0 /* UIViewController.swift */; };
+		D336D2D0293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CF293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift */; };
 		E09343CD9540602ACEA75EAD /* Pods_iOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D880ABF6DA22BC0316F37D /* Pods_iOSDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +59,7 @@
 		BB3BC927098745CD38377781 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D336D273293B33D0001A39E0 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D336D276293B33D0001A39E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D336D27A293B33D0001A39E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D336D27A293B33D0001A39E0 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		D336D27D293B33D0001A39E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D336D27F293B33D2001A39E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D336D282293B33D2001A39E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +69,18 @@
 		D336D293293B33D2001A39E0 /* iOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D336D297293B33D2001A39E0 /* iOSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDemoUITests.swift; sourceTree = "<group>"; };
 		D336D299293B33D2001A39E0 /* iOSDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D336D2AB293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewViewController.swift; sourceTree = "<group>"; };
+		D336D2AD293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DemoTableViewInsideTableView.storyboard; sourceTree = "<group>"; };
+		D336D2B1293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewCell.swift; sourceTree = "<group>"; };
+		D336D2B3293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewInsideTableViewCell.xib; sourceTree = "<group>"; };
+		D336D2B5293B3845001A39E0 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		D336D2B8293B3D74001A39E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D336D2BB293B3E95001A39E0 /* ViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewService.swift; sourceTree = "<group>"; };
+		D336D2C5293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewPresenter.swift; sourceTree = "<group>"; };
+		D336D2C9293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewWireFrame.swift; sourceTree = "<group>"; };
+		D336D2CB293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewRemoteDataManager.swift; sourceTree = "<group>"; };
+		D336D2CD293B4612001A39E0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D336D2CF293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewInteractor.swift; sourceTree = "<group>"; };
 		D4D0EDCA23F09F72ABC3EF3F /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F733C44F8F287929CAD0745A /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,8 +161,14 @@
 		D336D275293B33D0001A39E0 /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D336D2BA293B3E81001A39E0 /* Utils */,
+				D336D2B7293B3D62001A39E0 /* Standard */,
+				D336D2A9293B3761001A39E0 /* Cell */,
+				D336D2A8293B375B001A39E0 /* Screen */,
+				D336D2A7293B3751001A39E0 /* Extension */,
+				D336D2A6293B373C001A39E0 /* Networking */,
 				D336D276293B33D0001A39E0 /* AppDelegate.swift */,
-				D336D27A293B33D0001A39E0 /* ViewController.swift */,
+				D336D27A293B33D0001A39E0 /* MainScreenViewController.swift */,
 				D336D27C293B33D0001A39E0 /* Main.storyboard */,
 				D336D27F293B33D2001A39E0 /* Assets.xcassets */,
 				D336D281293B33D2001A39E0 /* LaunchScreen.storyboard */,
@@ -162,6 +192,124 @@
 				D336D299293B33D2001A39E0 /* iOSDemoUITestsLaunchTests.swift */,
 			);
 			path = iOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		D336D2A6293B373C001A39E0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D336D2A7293B3751001A39E0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2B5293B3845001A39E0 /* UITableView.swift */,
+				D336D2CD293B4612001A39E0 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D336D2A8293B375B001A39E0 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2AA293B3771001A39E0 /* DemoTableViewInsideTableView */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D336D2A9293B3761001A39E0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2AF293B37C5001A39E0 /* DemoTableViewInsideTableViewCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D336D2AA293B3771001A39E0 /* DemoTableViewInsideTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2C2293B40CE001A39E0 /* WireFrame */,
+				D336D2C1293B40B7001A39E0 /* Interactor */,
+				D336D2BF293B408F001A39E0 /* Datamanager */,
+				D336D2BE293B4088001A39E0 /* Presenter */,
+				D336D2BD293B4081001A39E0 /* View */,
+			);
+			path = DemoTableViewInsideTableView;
+			sourceTree = "<group>";
+		};
+		D336D2AF293B37C5001A39E0 /* DemoTableViewInsideTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2B1293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift */,
+				D336D2B3293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib */,
+			);
+			path = DemoTableViewInsideTableViewCell;
+			sourceTree = "<group>";
+		};
+		D336D2B7293B3D62001A39E0 /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2B8293B3D74001A39E0 /* ViewController.swift */,
+			);
+			path = Standard;
+			sourceTree = "<group>";
+		};
+		D336D2BA293B3E81001A39E0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2BB293B3E95001A39E0 /* ViewService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D336D2BD293B4081001A39E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2AB293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift */,
+				D336D2AD293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D336D2BE293B4088001A39E0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2C5293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D336D2BF293B408F001A39E0 /* Datamanager */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2C0293B40A2001A39E0 /* Remote */,
+			);
+			path = Datamanager;
+			sourceTree = "<group>";
+		};
+		D336D2C0293B40A2001A39E0 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2CB293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D336D2C1293B40B7001A39E0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2CF293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D336D2C2293B40CE001A39E0 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2C9293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift */,
+			);
+			path = WireFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D336D283293B33D2001A39E0 /* LaunchScreen.storyboard in Resources */,
+				D336D2AE293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard in Resources */,
 				D336D280293B33D2001A39E0 /* Assets.xcassets in Resources */,
 				D336D27E293B33D0001A39E0 /* Main.storyboard in Resources */,
+				D336D2B4293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,8 +553,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D336D27B293B33D0001A39E0 /* ViewController.swift in Sources */,
+				D336D2B9293B3D74001A39E0 /* ViewController.swift in Sources */,
+				D336D2D0293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift in Sources */,
+				D336D2B2293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift in Sources */,
+				D336D2CC293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift in Sources */,
+				D336D2CE293B4612001A39E0 /* UIViewController.swift in Sources */,
+				D336D2CA293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift in Sources */,
+				D336D2AC293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift in Sources */,
+				D336D2BC293B3E95001A39E0 /* ViewService.swift in Sources */,
+				D336D2B6293B3845001A39E0 /* UITableView.swift in Sources */,
+				D336D27B293B33D0001A39E0 /* MainScreenViewController.swift in Sources */,
 				D336D277293B33D0001A39E0 /* AppDelegate.swift in Sources */,
+				D336D2C6293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
