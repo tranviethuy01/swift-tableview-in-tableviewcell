@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iOS Demo
+//  iOSDemo
 //
 //  Created by Viet Huy on 12/3/22.
 //
