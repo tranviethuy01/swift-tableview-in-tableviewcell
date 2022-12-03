@@ -18,10 +18,14 @@ class MainScreenViewController: ViewController {
     }
     
     private func showDemoTableViewInsideTableView() {
-        if let vc = DemoTableViewInsideTableViewWireFrame.createDemoTableViewInsideTableViewViewController() {
-            if let view = self as? MainScreenViewController {
-                view.presentOverContext(vc, animated: true, completion: nil)
+        if let vc = DemoTableViewInsideTableViewWireFrame.createDemoTableViewInsideTableViewViewController() , let view = self as? MainScreenViewController {
+            if let navigationController = view.navigationController {
+                navigationController.pushViewController(vc, animated: true)
+            } else if let topMostVC = ViewService.findTopMostViewController() {
+                let navigationController = UINavigationController.init(rootViewController: vc)
+                topMostVC.customPresent(navigationController, animated: true)
             }
+            
         }
     }
 }
