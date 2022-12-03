@@ -1,12 +1,12 @@
 //
-//  DemoTableViewInsideTableViewCell.swift
+//  SimpleTableViewFixedCellHeightCell.swift
 //  iOSDemo
 //
 //  Created by Viet Huy on 12/3/22.
 //
 
 import UIKit
-class DemoTableViewInsideTableViewCell: UITableViewCell {
+class SimpleTableViewFixedCellHeightCell: UITableViewCell {
     private var row: Int!
     @IBOutlet weak var contentLbl: UILabel!
     override func awakeFromNib() {
@@ -22,7 +22,7 @@ class DemoTableViewInsideTableViewCell: UITableViewCell {
     
     private func didSetupData(){
         guard let row = self.row else {return}
-        contentLbl.text = "\(row). This is a demo cell with tableview inside"
+        contentLbl.text = "\(row). This is a demo cell with fixed height"
         if (row % 2 == 0) {
             self.backgroundColor = .gray
         } else {
@@ -32,7 +32,7 @@ class DemoTableViewInsideTableViewCell: UITableViewCell {
     }
     
     class func getCellIdentifier() -> String {
-        return "DemoTableViewInsideTableViewCell"
+        return "SimpleTableViewFixedCellHeightCell"
     }
     
     class func getCellHeight() -> CGFloat {

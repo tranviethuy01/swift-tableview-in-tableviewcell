@@ -29,6 +29,14 @@
 		D336D2CC293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CB293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift */; };
 		D336D2CE293B4612001A39E0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CD293B4612001A39E0 /* UIViewController.swift */; };
 		D336D2D0293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2CF293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift */; };
+		D336D2D7293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2D5293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift */; };
+		D336D2D8293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D2D6293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard */; };
+		D336D2DA293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2D9293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift */; };
+		D336D2DC293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2DB293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift */; };
+		D336D2E0293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2DE293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift */; };
+		D336D2E1293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D336D2DF293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib */; };
+		D336D2E4293B86B4001A39E0 /* SimpleTableViewFixedCellHeightInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2E3293B86B4001A39E0 /* SimpleTableViewFixedCellHeightInteractor.swift */; };
+		D336D2EA293B874F001A39E0 /* SimpleTableViewFixedCellHeightRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2E9293B874F001A39E0 /* SimpleTableViewFixedCellHeightRemoteDataManager.swift */; };
 		E09343CD9540602ACEA75EAD /* Pods_iOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D880ABF6DA22BC0316F37D /* Pods_iOSDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +89,14 @@
 		D336D2CB293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewRemoteDataManager.swift; sourceTree = "<group>"; };
 		D336D2CD293B4612001A39E0 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		D336D2CF293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewInsideTableViewInteractor.swift; sourceTree = "<group>"; };
+		D336D2D5293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightViewController.swift; sourceTree = "<group>"; };
+		D336D2D6293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleTableViewFixedCellHeight.storyboard; sourceTree = "<group>"; };
+		D336D2D9293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightPresenter.swift; sourceTree = "<group>"; };
+		D336D2DB293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightWireFrame.swift; sourceTree = "<group>"; };
+		D336D2DE293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightCell.swift; sourceTree = "<group>"; };
+		D336D2DF293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewFixedCellHeightCell.xib; sourceTree = "<group>"; };
+		D336D2E3293B86B4001A39E0 /* SimpleTableViewFixedCellHeightInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightInteractor.swift; sourceTree = "<group>"; };
+		D336D2E9293B874F001A39E0 /* SimpleTableViewFixedCellHeightRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleTableViewFixedCellHeightRemoteDataManager.swift; path = ../../../../../../../../../../Desktop/111/SimpleTableViewFixedCellHeight/Datamanager/Remote/SimpleTableViewFixedCellHeightRemoteDataManager.swift; sourceTree = "<group>"; };
 		D4D0EDCA23F09F72ABC3EF3F /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F733C44F8F287929CAD0745A /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +229,7 @@
 		D336D2A8293B375B001A39E0 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D336D2D1293B861E001A39E0 /* SimpleTableViewFixedCellHeight */,
 				D336D2AA293B3771001A39E0 /* DemoTableViewInsideTableView */,
 			);
 			path = Screen;
@@ -221,6 +238,7 @@
 		D336D2A9293B3761001A39E0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				D336D2DD293B8684001A39E0 /* SimpleTableViewFixedCellHeightCell */,
 				D336D2AF293B37C5001A39E0 /* DemoTableViewInsideTableViewCell */,
 			);
 			path = Cell;
@@ -310,6 +328,76 @@
 				D336D2C9293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift */,
 			);
 			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		D336D2D1293B861E001A39E0 /* SimpleTableViewFixedCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2E5293B86B8001A39E0 /* DataManager */,
+				D336D2E2293B86A7001A39E0 /* Interactor */,
+				D336D2D4293B863E001A39E0 /* WireFrame */,
+				D336D2D3293B8634001A39E0 /* Presenter */,
+				D336D2D2293B8630001A39E0 /* View */,
+			);
+			path = SimpleTableViewFixedCellHeight;
+			sourceTree = "<group>";
+		};
+		D336D2D2293B8630001A39E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2D6293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard */,
+				D336D2D5293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D336D2D3293B8634001A39E0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2D9293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D336D2D4293B863E001A39E0 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2DB293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		D336D2DD293B8684001A39E0 /* SimpleTableViewFixedCellHeightCell */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2DE293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift */,
+				D336D2DF293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib */,
+			);
+			path = SimpleTableViewFixedCellHeightCell;
+			sourceTree = "<group>";
+		};
+		D336D2E2293B86A7001A39E0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2E3293B86B4001A39E0 /* SimpleTableViewFixedCellHeightInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D336D2E5293B86B8001A39E0 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2E6293B86BF001A39E0 /* Remote */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		D336D2E6293B86BF001A39E0 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2E9293B874F001A39E0 /* SimpleTableViewFixedCellHeightRemoteDataManager.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,8 +511,10 @@
 			files = (
 				D336D283293B33D2001A39E0 /* LaunchScreen.storyboard in Resources */,
 				D336D2AE293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard in Resources */,
+				D336D2E1293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib in Resources */,
 				D336D280293B33D2001A39E0 /* Assets.xcassets in Resources */,
 				D336D27E293B33D0001A39E0 /* Main.storyboard in Resources */,
+				D336D2D8293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard in Resources */,
 				D336D2B4293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,18 +643,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D336D2E4293B86B4001A39E0 /* SimpleTableViewFixedCellHeightInteractor.swift in Sources */,
 				D336D2B9293B3D74001A39E0 /* ViewController.swift in Sources */,
 				D336D2D0293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift in Sources */,
+				D336D2DA293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift in Sources */,
 				D336D2B2293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift in Sources */,
 				D336D2CC293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift in Sources */,
 				D336D2CE293B4612001A39E0 /* UIViewController.swift in Sources */,
+				D336D2DC293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift in Sources */,
 				D336D2CA293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift in Sources */,
 				D336D2AC293B378C001A39E0 /* DemoTableViewInsideTableViewViewController.swift in Sources */,
+				D336D2E0293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift in Sources */,
 				D336D2BC293B3E95001A39E0 /* ViewService.swift in Sources */,
 				D336D2B6293B3845001A39E0 /* UITableView.swift in Sources */,
+				D336D2EA293B874F001A39E0 /* SimpleTableViewFixedCellHeightRemoteDataManager.swift in Sources */,
 				D336D27B293B33D0001A39E0 /* MainScreenViewController.swift in Sources */,
 				D336D277293B33D0001A39E0 /* AppDelegate.swift in Sources */,
 				D336D2C6293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift in Sources */,
+				D336D2D7293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
