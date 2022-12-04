@@ -22,10 +22,11 @@ class SimpleTableViewDynamicCellHeightCell: UITableViewCell {
     
     private func didSetupData(){
         guard let row = self.row else {return}
-        var contentStr = "\(row). This is a simple demo cell with Dynamic height "
+        var contentStr = "\(row). This is a simple demo cell with Dynamic height. Change additionalContentStr to see how auto Self-sizing Table View Cells work"
         //this is a test string, change it to see change in cell and tableview with dynamic height constraint
         var additionalContentStr = ""
-//        additionalContentStr.append(contentsOf: "This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height ") 
+        //uncomment this to see change
+        additionalContentStr.append(contentsOf: "This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height ")
         contentStr = "\(contentStr) \(additionalContentStr)"
         contentLbl.text = contentStr
         if (row % 2 == 0) {

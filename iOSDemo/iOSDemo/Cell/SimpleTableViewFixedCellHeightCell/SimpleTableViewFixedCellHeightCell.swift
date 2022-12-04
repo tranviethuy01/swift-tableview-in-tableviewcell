@@ -25,6 +25,7 @@ class SimpleTableViewFixedCellHeightCell: UITableViewCell {
         var contentStr = "\(row). This is a simple demo cell with fixed height "
         //this is a test string, change it to see change in cell and tableview with fixed height constraint
         var additionalContentStr = ""
+        //uncomment this to see change
 //        additionalContentStr.append(contentsOf: "This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height")
         contentStr = "\(contentStr) \(additionalContentStr)"
         contentLbl.text = contentStr
