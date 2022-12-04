@@ -22,7 +22,11 @@ class SimpleTableViewFixedCellHeightCell: UITableViewCell {
     
     private func didSetupData(){
         guard let row = self.row else {return}
-        contentLbl.text = "\(row). This is a simple demo cell with fixed height"
+        var contentStr = "\(row). This is a simple demo cell with fixed height "
+        //this is a test string, change it to see change in cell and tableview
+        let additionalContentStr = "This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height This is a simple demo cell with fixed height"
+        contentStr = "\(contentStr) \(additionalContentStr)"
+        contentLbl.text = contentStr
         if (row % 2 == 0) {
             self.backgroundColor = .gray
         } else {
