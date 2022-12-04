@@ -31,6 +31,7 @@ class DemoTableViewInsideTableViewCell: UITableViewCell {
         tableView.sectionFooterHeight = 0.1
         tableView.estimatedRowHeight = SimpleTableViewFixedCellHeightCell.getCellHeight()
         tableView.rowHeight = UITableView.automaticDimension
+        tableView.isScrollEnabled = false
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -44,9 +45,9 @@ class DemoTableViewInsideTableViewCell: UITableViewCell {
         guard let row = self.row else {return}
         contentLbl.text = "\(row). This is a demo cell with tableview inside"
         if (row % 2 == 0) {
-            self.backgroundColor = .gray
+            self.backgroundColor = .green
         } else {
-            self.backgroundColor = .darkGray
+            self.backgroundColor = .yellow
         }
         
     }
