@@ -6,10 +6,10 @@
 //
 
 import UIKit
-/*note
+/*Guide:
  What is wrong with this cell?
  Constraint is wrong. We use align center to super view for a label.
- So the system can not calculate the exact height of cell. 
+ So the system can not calculate the exact height of cell.
  */
 class SimpleTableViewDynamicCellHeightCellFailConstraint: UITableViewCell {
     private var row: Int!
