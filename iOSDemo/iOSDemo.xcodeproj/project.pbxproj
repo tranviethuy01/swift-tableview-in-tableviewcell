@@ -35,6 +35,12 @@
 		D336D2DC293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2DB293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift */; };
 		D336D2E0293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2DE293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift */; };
 		D336D2E1293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D336D2DF293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib */; };
+		D336D2F1293C26EE001A39E0 /* SimpleTableViewDynamicCellHeight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D336D2EF293C26EE001A39E0 /* SimpleTableViewDynamicCellHeight.storyboard */; };
+		D336D2F2293C26EE001A39E0 /* SimpleTableViewDynamicCellHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2F0293C26EE001A39E0 /* SimpleTableViewDynamicCellHeightViewController.swift */; };
+		D336D2F4293C26FA001A39E0 /* SimpleTableViewDynamicCellHeightPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2F3293C26FA001A39E0 /* SimpleTableViewDynamicCellHeightPresenter.swift */; };
+		D336D2F6293C2707001A39E0 /* SimpleTableViewDynamicCellHeightWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2F5293C2707001A39E0 /* SimpleTableViewDynamicCellHeightWireFrame.swift */; };
+		D336D2FA293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D336D2F8293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.swift */; };
+		D336D2FB293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D336D2F9293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.xib */; };
 		E09343CD9540602ACEA75EAD /* Pods_iOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D880ABF6DA22BC0316F37D /* Pods_iOSDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +99,12 @@
 		D336D2DB293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightWireFrame.swift; sourceTree = "<group>"; };
 		D336D2DE293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewFixedCellHeightCell.swift; sourceTree = "<group>"; };
 		D336D2DF293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewFixedCellHeightCell.xib; sourceTree = "<group>"; };
+		D336D2EF293C26EE001A39E0 /* SimpleTableViewDynamicCellHeight.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleTableViewDynamicCellHeight.storyboard; sourceTree = "<group>"; };
+		D336D2F0293C26EE001A39E0 /* SimpleTableViewDynamicCellHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDynamicCellHeightViewController.swift; sourceTree = "<group>"; };
+		D336D2F3293C26FA001A39E0 /* SimpleTableViewDynamicCellHeightPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDynamicCellHeightPresenter.swift; sourceTree = "<group>"; };
+		D336D2F5293C2707001A39E0 /* SimpleTableViewDynamicCellHeightWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDynamicCellHeightWireFrame.swift; sourceTree = "<group>"; };
+		D336D2F8293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDynamicCellHeightCell.swift; sourceTree = "<group>"; };
+		D336D2F9293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewDynamicCellHeightCell.xib; sourceTree = "<group>"; };
 		D4D0EDCA23F09F72ABC3EF3F /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F733C44F8F287929CAD0745A /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,6 +237,7 @@
 		D336D2A8293B375B001A39E0 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D336D2EB293C2690001A39E0 /* SimpleTableViewDynamicCellHeight */,
 				D336D2D1293B861E001A39E0 /* SimpleTableViewFixedCellHeight */,
 				D336D2AA293B3771001A39E0 /* DemoTableViewInsideTableView */,
 			);
@@ -234,6 +247,7 @@
 		D336D2A9293B3761001A39E0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				D336D2F7293C270F001A39E0 /* SimpleTableViewDynamicCellHeightCell */,
 				D336D2DD293B8684001A39E0 /* SimpleTableViewFixedCellHeightCell */,
 				D336D2AF293B37C5001A39E0 /* DemoTableViewInsideTableViewCell */,
 			);
@@ -370,6 +384,50 @@
 			path = SimpleTableViewFixedCellHeightCell;
 			sourceTree = "<group>";
 		};
+		D336D2EB293C2690001A39E0 /* SimpleTableViewDynamicCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2EE293C26DF001A39E0 /* WireFrame */,
+				D336D2ED293C26DB001A39E0 /* Presenter */,
+				D336D2EC293C26D5001A39E0 /* View */,
+			);
+			path = SimpleTableViewDynamicCellHeight;
+			sourceTree = "<group>";
+		};
+		D336D2EC293C26D5001A39E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2EF293C26EE001A39E0 /* SimpleTableViewDynamicCellHeight.storyboard */,
+				D336D2F0293C26EE001A39E0 /* SimpleTableViewDynamicCellHeightViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D336D2ED293C26DB001A39E0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2F3293C26FA001A39E0 /* SimpleTableViewDynamicCellHeightPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D336D2EE293C26DF001A39E0 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2F5293C2707001A39E0 /* SimpleTableViewDynamicCellHeightWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		D336D2F7293C270F001A39E0 /* SimpleTableViewDynamicCellHeightCell */ = {
+			isa = PBXGroup;
+			children = (
+				D336D2F8293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.swift */,
+				D336D2F9293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.xib */,
+			);
+			path = SimpleTableViewDynamicCellHeightCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -483,7 +541,9 @@
 				D336D2AE293B379F001A39E0 /* DemoTableViewInsideTableView.storyboard in Resources */,
 				D336D2E1293B8691001A39E0 /* SimpleTableViewFixedCellHeightCell.xib in Resources */,
 				D336D280293B33D2001A39E0 /* Assets.xcassets in Resources */,
+				D336D2FB293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.xib in Resources */,
 				D336D27E293B33D0001A39E0 /* Main.storyboard in Resources */,
+				D336D2F1293C26EE001A39E0 /* SimpleTableViewDynamicCellHeight.storyboard in Resources */,
 				D336D2D8293B865A001A39E0 /* SimpleTableViewFixedCellHeight.storyboard in Resources */,
 				D336D2B4293B37F0001A39E0 /* DemoTableViewInsideTableViewCell.xib in Resources */,
 			);
@@ -613,11 +673,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D336D2FA293C2727001A39E0 /* SimpleTableViewDynamicCellHeightCell.swift in Sources */,
 				D336D2B9293B3D74001A39E0 /* ViewController.swift in Sources */,
 				D336D2D0293B4C6A001A39E0 /* DemoTableViewInsideTableViewInteractor.swift in Sources */,
 				D336D2DA293B8668001A39E0 /* SimpleTableViewFixedCellHeightPresenter.swift in Sources */,
 				D336D2B2293B37E2001A39E0 /* DemoTableViewInsideTableViewCell.swift in Sources */,
+				D336D2F6293C2707001A39E0 /* SimpleTableViewDynamicCellHeightWireFrame.swift in Sources */,
 				D336D2CC293B414B001A39E0 /* DemoTableViewInsideTableViewRemoteDataManager.swift in Sources */,
+				D336D2F4293C26FA001A39E0 /* SimpleTableViewDynamicCellHeightPresenter.swift in Sources */,
 				D336D2CE293B4612001A39E0 /* UIViewController.swift in Sources */,
 				D336D2DC293B8673001A39E0 /* SimpleTableViewFixedCellHeightWireFrame.swift in Sources */,
 				D336D2CA293B4122001A39E0 /* DemoTableViewInsideTableViewWireFrame.swift in Sources */,
@@ -627,6 +690,7 @@
 				D336D2B6293B3845001A39E0 /* UITableView.swift in Sources */,
 				D336D27B293B33D0001A39E0 /* MainScreenViewController.swift in Sources */,
 				D336D277293B33D0001A39E0 /* AppDelegate.swift in Sources */,
+				D336D2F2293C26EE001A39E0 /* SimpleTableViewDynamicCellHeightViewController.swift in Sources */,
 				D336D2C6293B4108001A39E0 /* DemoTableViewInsideTableViewPresenter.swift in Sources */,
 				D336D2D7293B865A001A39E0 /* SimpleTableViewFixedCellHeightViewController.swift in Sources */,
 			);

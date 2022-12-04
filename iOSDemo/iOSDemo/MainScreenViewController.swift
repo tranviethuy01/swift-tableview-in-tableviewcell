@@ -21,6 +21,12 @@ class MainScreenViewController: ViewController {
         showDemoTableViewInsideTableView()
     }
     
+    
+    @IBAction func demoTableviewSimpleWithDynamicCellHeight_Tap(_ sender: Any) {
+        
+        showDemoTableViewSimpleWithDynamicCellHeight()
+    }
+    
     private func showDemoTableViewSimple() {
         if let vc = SimpleTableViewFixedCellHeightWireFrame.createSimpleTableViewFixedCellHeightViewController(){
             if let topMostVC = ViewService.findTopMostViewController() {
@@ -31,6 +37,16 @@ class MainScreenViewController: ViewController {
         }
     }
     
+    
+    private func showDemoTableViewSimpleWithDynamicCellHeight() {
+        if let vc = SimpleTableViewDynamicCellHeightWireFrame.createSimpleTableViewDynamicCellHeightViewController(){
+            if let topMostVC = ViewService.findTopMostViewController() {
+                let navigationController = UINavigationController.init(rootViewController: vc)
+                topMostVC.customPresent(navigationController, animated: true)
+            }
+            
+        }
+    }
     
     private func showDemoTableViewInsideTableView() {
         if let vc = DemoTableViewInsideTableViewWireFrame.createDemoTableViewInsideTableViewViewController() {
