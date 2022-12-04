@@ -23,9 +23,9 @@ class SimpleTableViewDynamicCellHeightCell: UITableViewCell {
     private func didSetupData(){
         guard let row = self.row else {return}
         var contentStr = "\(row). This is a simple demo cell with Dynamic height "
-        //this is a test string, change it to see change in cell and tableview
-        let additionalContentStr = ""
-//        let additionalContentStr = "This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height "
+        //this is a test string, change it to see change in cell and tableview with dynamic height constraint
+        var additionalContentStr = ""
+//        additionalContentStr.append(contentsOf: "This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height This is a simple demo cell with Dynamic height ") 
         contentStr = "\(contentStr) \(additionalContentStr)"
         contentLbl.text = contentStr
         if (row % 2 == 0) {

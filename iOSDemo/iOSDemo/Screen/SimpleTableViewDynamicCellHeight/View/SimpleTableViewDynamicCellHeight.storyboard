@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Demo Table View Inside Table View View Controller-->
+        <!--Simple Table View Dynamic Cell Height View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="SimpleTableViewDynamicCellHeight" automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SimpleTableViewDynamicCellHeightViewController" customModule="iOSDemo" customModuleProvider="target" sceneMemberID="viewController">
