@@ -7,12 +7,12 @@
 
 import Foundation
 
-protocol DemoTableViewInsideTableViewInteractorInputProtocol: class {
+protocol DemoTableViewInsideTableViewInteractorInputProtocol: AnyObject {
     var presenter: DemoTableViewInsideTableViewInteractorOutputProtocol? {get set}
     var remoteDataManager: DemoTableViewInsideTableViewRemoteDataManagerInputProtocol! {get set}
     
 }
-protocol DemoTableViewInsideTableViewInteractorOutputProtocol: class {
+protocol DemoTableViewInsideTableViewInteractorOutputProtocol: AnyObject {
     
 }
 

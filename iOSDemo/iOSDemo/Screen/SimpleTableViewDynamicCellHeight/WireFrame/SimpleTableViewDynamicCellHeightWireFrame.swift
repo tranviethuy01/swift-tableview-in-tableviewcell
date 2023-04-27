@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol SimpleTableViewDynamicCellHeightWireFrameProtocol: class {
+protocol SimpleTableViewDynamicCellHeightWireFrameProtocol: AnyObject {
     static func createSimpleTableViewDynamicCellHeightViewController() -> SimpleTableViewDynamicCellHeightViewController?
 }
 

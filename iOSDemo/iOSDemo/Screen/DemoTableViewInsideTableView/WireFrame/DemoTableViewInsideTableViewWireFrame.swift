@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol DemoTableViewInsideTableViewWireFrameProtocol: class {
+protocol DemoTableViewInsideTableViewWireFrameProtocol: AnyObject {
     static func createDemoTableViewInsideTableViewViewController() -> DemoTableViewInsideTableViewViewController?
 }
 

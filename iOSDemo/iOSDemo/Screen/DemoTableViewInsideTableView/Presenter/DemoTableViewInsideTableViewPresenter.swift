@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol DemoTableViewInsideTableViewPresenterProtocol: class {
+protocol DemoTableViewInsideTableViewPresenterProtocol: AnyObject {
     var view: DemoTableViewInsideTableViewViewProtocol? {get set}
     var interactor: DemoTableViewInsideTableViewInteractorInputProtocol! {get set}
     var wireFrame: DemoTableViewInsideTableViewWireFrameProtocol! {get set}

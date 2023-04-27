@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-protocol SimpleTableViewDynamicCellHeightViewProtocol: class {
+protocol SimpleTableViewDynamicCellHeightViewProtocol: AnyObject {
     var presenter: SimpleTableViewDynamicCellHeightPresenterProtocol! {get set}
 }
 

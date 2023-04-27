@@ -1,14 +1,17 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
+platform :ios, '11.0'
 
 target 'iOSDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for iOS Demo
-  pod 'Alamofire', '~> 4.8.1' # Swift 4.2
-  pod 'AlamofireObjectMapper', '~> 5.2.0' # Swift 4.2
+  #pod 'Alamofire', '~> 4.8.1' # Swift 4.2
+  pod 'Alamofire', '5.6.4'
+  pod 'Kingfisher', '6.3.1'
   pod 'ObjectMapper', '~> 3.4.2' # Swift 4.2
+  pod 'MJRefresh', '3.2.0'
   
   target 'iOSDemoTests' do
     inherit! :search_paths

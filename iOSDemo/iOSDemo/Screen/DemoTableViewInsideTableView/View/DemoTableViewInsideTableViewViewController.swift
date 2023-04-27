@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-protocol DemoTableViewInsideTableViewViewProtocol: class {
+protocol DemoTableViewInsideTableViewViewProtocol: AnyObject {
     var presenter: DemoTableViewInsideTableViewPresenterProtocol! {get set}
 }
 

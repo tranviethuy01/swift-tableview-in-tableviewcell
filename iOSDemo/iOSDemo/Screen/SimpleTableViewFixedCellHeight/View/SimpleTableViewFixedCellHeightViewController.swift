@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-protocol SimpleTableViewFixedCellHeightViewProtocol: class {
+protocol SimpleTableViewFixedCellHeightViewProtocol: AnyObject {
     var presenter: SimpleTableViewFixedCellHeightPresenterProtocol! {get set}
 }
 

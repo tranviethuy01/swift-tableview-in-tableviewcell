@@ -3,7 +3,7 @@
 //  iOSDemo
 //
 //  Created by Viet Huy on 12/3/22.
-//
+//  Copyright © 2023 Tran Viet Huy. All rights reserved.
 
 import UIKit
 class SimpleTableViewFixedCellHeightCell: UITableViewCell {

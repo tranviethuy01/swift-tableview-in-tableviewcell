@@ -169,4 +169,26 @@ final class ViewService {
         zeroHeightConstraint.isActive = !isShow
         bottomSpaceConstraint.isActive = isShow
     }
+    
+    class func showAdvanceAlert(title: String?,
+                                content: NSAttributedString?,
+                                confirmTitle: String?,
+                                confirmAction: (()->())?,
+                                imageName: String? = nil,
+                                imageWidth: CGFloat? = nil,
+                                imageHeight: CGFloat? = nil,
+                                confirmBackgroundColor: UIColor? = nil,
+                                confirmTintColor: UIColor? = nil) {
+        if let topVC = ViewService.findTopMostViewController(), let alert = AdvanceAlertWireFrame.createAdvanceAlertViewController(alertTitle: title, alertContent: content, confirmTitle: confirmTitle, confirmAction: confirmAction, imageName: imageName, imageWidth: imageWidth, imageHeight: imageHeight, confirmBackgroundColor: confirmBackgroundColor, confirmTintColor: confirmTintColor) {
+            topVC.presentOverContext(alert, animated: true, completion: nil)
+        }
+        
+    }
+    
+    class func showLoadingIndicator() {
+        CustomLoadingView.sharedInstance.show()
+    }
+    class func hideLoadingIndicator() {
+        CustomLoadingView.sharedInstance.hide()
+    }
 }

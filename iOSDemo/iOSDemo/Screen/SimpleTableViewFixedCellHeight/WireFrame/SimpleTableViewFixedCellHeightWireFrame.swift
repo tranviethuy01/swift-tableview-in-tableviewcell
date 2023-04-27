@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol SimpleTableViewFixedCellHeightWireFrameProtocol: class {
+protocol SimpleTableViewFixedCellHeightWireFrameProtocol: AnyObject {
     static func createSimpleTableViewFixedCellHeightViewController() -> SimpleTableViewFixedCellHeightViewController?
 }
 

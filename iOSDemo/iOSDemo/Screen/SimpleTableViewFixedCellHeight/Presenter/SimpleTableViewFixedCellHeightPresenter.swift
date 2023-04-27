@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol SimpleTableViewFixedCellHeightPresenterProtocol: class {
+protocol SimpleTableViewFixedCellHeightPresenterProtocol: AnyObject {
     var view: SimpleTableViewFixedCellHeightViewProtocol? {get set}
     var wireFrame: SimpleTableViewFixedCellHeightWireFrameProtocol! {get set}
     func viewDidLoad()
